@@ -1,9 +1,11 @@
 import React from 'react';
 import './index.css';
+// import Rellax from '../../../../node_modules/rellax/rellax.min';
 // images
 import popcorn from "../../../Assets/Images/popcorn.jpg";
 
 const PopcornSection = ()=>{
+    // let rellax = new Rellax('.rellax');
     return(
         <>
             <section className="products" id="popcorn">

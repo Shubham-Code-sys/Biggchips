@@ -16,13 +16,13 @@ const TopNav = ()=>{
                   <a className="nav-link" href="#">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Products</a>
+                  <a className="nav-link" href="#all-products">Products</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Contact Us</a>
+                  <a className="nav-link" href="#about-us">About Us</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">About Us</a>
+                  <a className="nav-link" href="#contact-us">Contact Us</a>
                 </li>
               </ul>
             </div>

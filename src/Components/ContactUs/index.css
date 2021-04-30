@@ -1,0 +1,92 @@
+.contact-us{
+    text-align: center;
+    background-image: linear-gradient(to right,rgba(29, 53, 87, 0.75),
+    rgba(230, 57, 70, 0.75));
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+.contact-us-div h1{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 35px;
+    color: white;
+}
+.contact-us-div p{
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+.logo{
+    font-family: 'Rock Salt', cursive;
+    font-weight: 100;
+    color: white;
+}
+.contact-us-div form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,form .feedback{
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    color: white;
+}
+form .feedback{
+    resize: vertical;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+}
+.form-btn{
+    width: 150px;
+    margin-top: 10px;
+    color: #1D3557;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #457B9D;
+    border-radius: 7px;
+    background: rgba(69, 123, 157, 0.3);
+    transition: .3s;
+}
+.form-btn:hover{
+    color: white;
+    background: #457B9D;
+}
+.horizontal-line{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: 10px;
+    border-radius: 50px;
+    margin: 25px auto;
+}
+.address-div h1{
+    color: #48C7A8;
+    font-size: 30px;
+}
+.address-div p{
+    font-weight: 500;
+    color: white;
+    line-height: 2;
+    text-align: center;
+}
+
+/* media queries */
+@media(max-width:450px){
+    .contact-us-div form{
+        width: 90%;
+        margin:auto;
+    }
+    form input, form .feedback{
+        width: 100%;
+    }
+    .form-btn{
+        width: auto;
+    }
+}

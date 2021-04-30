@@ -13,6 +13,13 @@
 }
 
 /* media queries */
-/* @media(min-width:768px){
-
-} */
+@media(max-width:450px){
+    .chips-background{
+        margin-top: 250px;
+    }
+}
+@media(max-width:375px){
+    .chips-background{
+        margin-top: 200px;
+    }
+}

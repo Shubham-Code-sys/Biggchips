@@ -1,0 +1,81 @@
+.all-products {
+    background-color: rgba(230, 57, 70, 0.7);
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.all-products h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.all-products-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.all-products-images img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, .5);
+}
+
+.popcorn-image,
+.almonds-image,
+.chips-image {
+    text-align: center;
+}
+
+.popcorn-image p,
+.almonds-image p,
+.chips-image p {
+    color: #F1FAEE;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+.popcorn-image a,
+.almonds-image a,
+.chips-image a {
+    text-align: center;
+    font-weight: bold;
+    color: #F1FAEE;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #F1FAEE;
+    border-radius: 7px;
+    background-color: rgba(230, 57, 70, 0.05);
+    transition: 0.3s;
+}
+
+.popcorn-image a:hover,
+.almonds-image a:hover,
+.chips-image a:hover {
+    color: rgba(230, 57, 70, 0.7);
+    background-color: #F1FAEE;
+}
+
+/* media queries */
+@media(max-width:450px){
+    .all-products-images{
+        flex-direction: column;
+    }
+    .popcorn-image{
+        margin-bottom: 40px;
+    }
+    .almonds-image{
+        margin-bottom: 40px;
+    }
+    .chips-image{
+        margin-bottom: 40px;
+    }
+    .all-products{
+        margin-top: 50px;
+    }
+}

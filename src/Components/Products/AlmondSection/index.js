@@ -1,12 +1,14 @@
 import React from 'react';
 import './index.css';
+// import Rellax from '../../../../node_modules/rellax/rellax.min';
 // images
 import almond from '../../../Assets/Images/almonds.jpg';
 
 const AlmondSection = ()=>{
+    // let rellax = new Rellax('.rellax');
     return(
         <>
-            <section class="products" id="almond">
+            <section class="products-almond" id="almond">
                 <div class="almonds-background"></div>
                 <div class="almond-image">
                     <img src={almond} alt="almond" title="Almond"/>

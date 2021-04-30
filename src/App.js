@@ -5,6 +5,10 @@ import TopNav from './Components/TopNav';
 import PopcornSection from './Components/Products/PopcornSection';
 import AlmondSection from './Components/Products/AlmondSection';
 import ChipsSection from './Components/Products/ChipsSection';
+import AllProducts from './Components/AllProducts';
+import AboutUs from './Components/AboutUs';
+import ContactUs from './Components/ContactUs';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <PopcornSection/>
       <AlmondSection/>
       <ChipsSection/>
+      <AllProducts/>
+      <AboutUs/>
+      <ContactUs/>
+      <Footer/>
     </>
   );
 }
